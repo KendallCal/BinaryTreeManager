@@ -6,17 +6,17 @@
 Este programa permite la manipulación de un árbol binario de búsqueda a través de una interfaz gráfica. Las funcionalidades principales incluyen:
 
 - **Inserción de nodos:** Agrega nodos al árbol con validación de IDs duplicados.
-- <img src="Imágenes Demostración/Insercción.png" alt="Captura Insercción" width="700" />
+<img src="Demostración/Insercción.png" alt="Captura Insercción" width="700" />
 - **Eliminación de nodos:** Elimina nodos considerando tres casos (hoja, con un solo hijo, o con dos hijos).
-- <img src="Imágenes Demostración/Eliminacón.png" alt="Captura Eliminación" width="700" />
+<img src="Demostración/Eliminacón.png" alt="Captura Eliminación" width="700" />
 - **Búsqueda de nodos:** Busca un nodo por su ID y muestra la información del nodo si existe.
-- <img src="Imágenes Demostración/Búsqueda.png" alt="Captura Búsqueda" width="700" />
+<img src="Demostración/Búsqueda.png" alt="Captura Búsqueda" width="700" />
 - **Recorridos del árbol:** Realiza recorridos en pre-orden, post-orden e in-orden.
-- <img src="Imágenes Demostración/Recorridos.png" alt="Captura Recorridos" width="700" />
+<img src="Demostración/Recorridos.png" alt="Captura Recorridos" width="700" />
 - **Graficación del árbol:** Muestra una representación gráfica del árbol en pantalla.
-- <img src="Imágenes Demostración/Grafico.png" alt="Captura Grafico" width="700" />
+<img src="Demostración/Grafico.png" alt="Captura Grafico" width="700" />
 
-Tambíen puedes ver el [Video Demostración](Imágenes Demostración/Demo.mp4) completo del programa.
+Tambíen puedes ver el [Video Demostración](Demostración/Demo.mp4) completo del programa.
 
 ## Tecnologías Utilizadas
 
