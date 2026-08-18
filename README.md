@@ -1,42 +1,177 @@
-# BinaryTreeManager
-**BinaryTreeManager** es un proyecto en Java diseñado para la gestión de árboles binarios de búsqueda. Desarrollado en NetBeans, este proyecto es parte del curso de Estructuras de Datos de la Universidad Estatal a Distancia (UNED) del II Cuatrimestre de 2024.
+<div align="center">
 
-## Descripción del Proyecto
+# 🌳 Binary Search Tree Visualizer
 
-Este programa permite la manipulación de un árbol binario de búsqueda a través de una interfaz gráfica. Las funcionalidades principales incluyen:
+### Interactive desktop application for exploring Binary Search Tree operations
 
-- **Inserción de nodos:** Agrega nodos al árbol con validación de IDs duplicados.
-  <img src="Demostración/Insercción.png" alt="Captura Insercción" width="700" />
-- **Eliminación de nodos:** Elimina nodos considerando tres casos (hoja, con un solo hijo, o con dos hijos).
-  <img src="Demostración/Eliminación.png" alt="Captura Eliminación" width="700" />
-- **Búsqueda de nodos:** Busca un nodo por su ID y muestra la información del nodo si existe.
-  <img src="Demostración/Búsqueda.png" alt="Captura Búsqueda" width="700" />
-- **Recorridos del árbol:** Realiza recorridos en pre-orden, post-orden e in-orden.
-  <img src="Demostración/Recorridos.png" alt="Captura Recorridos" width="700" />
-- **Graficación del árbol:** Muestra una representación gráfica del árbol en pantalla.
-  <img src="Demostración/Grafico.png" alt="Captura Grafico" width="700" />
+A Java application that allows users to **insert, delete, search, traverse, and visually represent nodes in a Binary Search Tree** through a graphical interface.
 
-Tambíen puedes ver el [Video Demostración](Demostración/Demo.mp4) completo del programa.
+<br>
 
-## Tecnologías Utilizadas
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=openjdk\&logoColor=white)
+![Swing](https://img.shields.io/badge/Java_Swing-GUI-5382A1?style=for-the-badge\&logo=openjdk\&logoColor=white)
+![NetBeans](https://img.shields.io/badge/Apache_NetBeans-1B6AC6?style=for-the-badge\&logo=apachenetbeans\&logoColor=white)
 
-- **Lenguaje:** Java
-- **IDE:** NetBeans (última versión)
-- **Interfaz Gráfica:** Swing
+</div>
 
-## Instrucciones de Uso
+---
 
-1. Clona el repositorio en tu máquina local:
-    ```bash
-    git clone https://github.com/tu-usuario/BinaryTreeManager.git
-    ```
-2. Abre el proyecto en NetBeans.
-3. Compila y ejecuta el proyecto.
-4. Utiliza la interfaz gráfica para insertar, eliminar, buscar, y recorrer nodos. 
+## 📌 About the Project
 
-## Notas
+**Binary Search Tree Visualizer** is a desktop application developed in Java as part of the **Data Structures** course at Universidad Estatal a Distancia (UNED), during the second academic term of 2024.
 
-- Asegúrate de revisar el código y la documentación dentro del proyecto para entender completamente la implementación y las funcionalidades disponibles.
-- El proyecto fue realizado como parte del curso de Estructuras de Datos de la UNED. 
+The project implements the core operations of a **Binary Search Tree (BST)** and provides a graphical interface that makes it possible to visualize how the tree changes as nodes are inserted or removed.
 
-Para cualquier duda o contribución, siéntete libre de abrir un *issue* o enviar un *pull request*.
+The application focuses on applying data structure concepts through an interactive implementation rather than only representing them theoretically.
+
+---
+
+## ✨ Features
+
+### ➕ Node insertion
+
+Adds new nodes to the Binary Search Tree while validating duplicate IDs.
+
+<div align="center">
+
+<img src="Demostración/Insercción.png" alt="Node insertion" width="80%">
+
+</div>
+
+---
+
+### ➖ Node deletion
+
+Supports the three standard deletion scenarios:
+
+* Leaf node.
+* Node with one child.
+* Node with two children.
+
+<div align="center">
+
+<img src="Demostración/Eliminación.png" alt="Node deletion" width="80%">
+
+</div>
+
+---
+
+### 🔎 Node search
+
+Searches the tree using a node ID and displays the stored information when a match is found.
+
+<div align="center">
+
+<img src="Demostración/Búsqueda.png" alt="Node search" width="80%">
+
+</div>
+
+---
+
+### 🔄 Tree traversals
+
+Supports the main Binary Search Tree traversal algorithms:
+
+* **In-order**
+* **Pre-order**
+* **Post-order**
+
+<div align="center">
+
+<img src="Demostración/Recorridos.png" alt="Tree traversals" width="80%">
+
+</div>
+
+---
+
+### 🌳 Tree visualization
+
+Generates a graphical representation of the current tree structure, making parent-child relationships easier to understand.
+
+<div align="center">
+
+<img src="Demostración/Grafico.png" alt="Binary Search Tree visualization" width="80%">
+
+</div>
+
+---
+
+## 🧠 Concepts Applied
+
+This project applies fundamental computer science concepts such as:
+
+* Binary Search Trees.
+* Recursive algorithms.
+* Tree traversal algorithms.
+* Node insertion and deletion.
+* Search algorithms.
+* Object-Oriented Programming.
+* Data validation.
+* Graphical User Interfaces.
+
+---
+
+## 🛠️ Tech Stack
+
+| Area           | Technology         |
+| -------------- | ------------------ |
+| Language       | Java               |
+| GUI            | Java Swing         |
+| IDE            | Apache NetBeans    |
+| Data Structure | Binary Search Tree |
+
+---
+
+## 🎥 Demo
+
+A complete demonstration of the application is available inside the repository:
+
+▶️ [View demo video](Demostración/Demo.mp4)
+
+---
+
+## 🚀 Run Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/KendallCal/BinarySearchTreeVisualizer.git
+```
+
+### 2. Open the project
+
+Open the project using **Apache NetBeans**.
+
+### 3. Build and run
+
+Compile and execute the application from the IDE.
+
+### 4. Explore the tree
+
+Use the graphical interface to:
+
+* Insert nodes.
+* Delete nodes.
+* Search for nodes.
+* Execute tree traversals.
+* Visualize the resulting tree.
+
+---
+
+## 🎓 Academic Context
+
+This project was developed for the **Data Structures** course at Universidad Estatal a Distancia de Costa Rica.
+
+It provided practical experience implementing one of the fundamental data structures in computer science while combining algorithms, object-oriented programming, recursion, and graphical visualization.
+
+---
+
+<div align="center">
+
+### 👨‍💻 Kendall Calderón
+
+[![GitHub](https://img.shields.io/badge/GitHub-KendallCal-181717?style=for-the-badge\&logo=github)](https://github.com/KendallCal)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kendall_Calderón-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/kendallcal/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-kendallc.dev-0A66C2?style=for-the-badge\&logo=googlechrome\&logoColor=white)](https://www.kendallc.dev/)
+
+</div>
